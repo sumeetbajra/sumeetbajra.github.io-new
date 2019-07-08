@@ -33,10 +33,14 @@ Now you should receive all your contents in zip format in your email. Go ahead a
 
 ## 2. Create new Jekyll project
 
-Now we have our Medium articles exported, we need to get our website ready where we can import it and display it. For this tutorial, we are going to use an existing Jekyll [theme](https://github.com/sumeetbajra/beautiful-jekyll). Go ahead and clone the project in your local system.
+Now we have our Medium articles exported, we need to get our website ready where we can import it and display it. For this tutorial, we are going to use an existing Jekyll [theme](https://github.com/sumeetbajra/beautiful-jekyll). Go ahead and download the project as zip in your local system.
+
+If you instead clone the project, you will need to remove the .git folder since we will be uploading the project to our own repository later.
 
 ```
 > git clone https://github.com/sumeetbajra/beautiful-jekyll
+> cd beautiful-jekyll
+> rm -rf .git
 ```
 
 [Jekyll](https://jekyllrb.com/) is a simple, static and extendable site generator. It is based on Ruby and hence you'll need to have full Ruby development environment setup. More information can be found [here](https://jekyllrb.com/docs/installation/). 
@@ -120,11 +124,10 @@ Create a new Github repository from [here](https://github.com/new). You can name
 
 _Note: Before you upload the project to Github, you might want to update the site's _config.yml file. It currently contains dummy information and you will want to replace it with your information before uploading it. You can make other changes too as you may feel necessary. Find more details on Jekyll config file_ [_here_](https://jekyllrb.com/docs/configuration/)_._
 
-Let's remove the .git folder and its content from our project to reinitialize git and upload it to our newly created repository.
+Let's initialize git in our folder and upload it to our newly created repository.
 
 ```
 > cd beautiful-jekyll
-> rm -rf .git
 > git init
 > git add --all
 > git commit -m "Initial commit"
