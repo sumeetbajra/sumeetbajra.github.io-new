@@ -11,6 +11,8 @@ tags:
 date: 2019-07-04T11:08:17.590Z
 thumbnail: /img/screen-shot-2019-07-08-at-12.27.58-pm.png
 ---
+![](/img/screen-shot-2019-07-08-at-12.27.58-pm.png)
+
 We at Botsplash recently migrated our blogging platform from Medium to self hosted Jekyll site with Netlify CMS to manage the content. 
 
 Let's look at how you can migrate your blog from Medium to Jekyll and use Netlify CMS to manage the content. We will be hosting our site using Github pages in this tutorial but you can also use your custom domain which we will be discussing at the end. We shall be covering the following steps in this blog:
