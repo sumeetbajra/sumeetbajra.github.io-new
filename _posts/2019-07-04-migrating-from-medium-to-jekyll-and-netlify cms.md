@@ -175,6 +175,8 @@ Add your domain name <github-username>.github.io and click 'Verify' and then cli
 
 Note your Netlify app's name. In my case, it is 'practical-shaw-b147f7'.
 
+_If you don't want to create Netlify app and instead wish to use your own OAuth server, you can use '_[_netlify-cms-oauth-provider_](https://github.com/vencax/netlify-cms-github-oauth-provider)_' package. The detailed instructions are given in its Github page. You need to replace 'https://api.netlify.com/auth/done' in the Github OAuth app settings with your own server callback url in this case._
+
 \---
 
 Now let's go back to our project. We need to create a new folder inside our blog called 'admin'. Inside it, create two files namely 'index.html' and 'config.yml'. This 'config.yml' file is different from '_config.yml' file that is in the root folder. The content for each file is provided below.
@@ -183,7 +185,7 @@ Now let's go back to our project. We need to create a new folder inside our blog
 
 <script src="https://gist.github.com/sumeetbajra/b4ed7cd7af203d206eba1cb453a2aedb.js"></script>
 
-In the config.yml file, replace 'repo' with your Github repo and 'site_domain' with your Netlify app's domain (<your-netlify-app-name>.netlify.com). 
+In the config.yml file, replace 'repo' with your Github repo and 'site_domain' with your Netlify app's domain <your-netlify-app-name>.netlify.com (skip this in case of custom OAuth). 
 
 If you want to know more about what each attribute in the config.yml file does you can check it out [here](https://www.netlifycms.org/docs/add-to-your-site/#configuration). 
 
