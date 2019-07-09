@@ -120,7 +120,7 @@ This is all great so far. We have our Medium articles exported and displayed in 
 
 Netlify CMS will allow us to manage our articles directly to Github repo. Thus, we will need to create a new repository for our blog. Let's go ahead and upload our 'beautiful-jekyll' to our own Github repository.
 
-Create a new Github repository from [here](https://github.com/new). You can name the repository as "<github-username>.github.io". This will allow our site to be hosted via [Github Pages](https://pages.github.com).
+Create a new Github repository from [here](https://github.com/new). You can name the repository as `<github-username>.github.io`. This will allow our site to be hosted via [Github Pages](https://pages.github.com).
 
 _Note: Before you upload the project to Github, you might want to update the site's _config.yml file. It currently contains dummy information and you will want to replace it with your information before uploading it. You can make other changes too as you may feel necessary. Find more details on Jekyll config file_ [_here_](https://jekyllrb.com/docs/configuration/)_._
 
@@ -135,7 +135,7 @@ Let's initialize git in our folder and upload it to our newly created repository
 > git push -u origin master
 ```
 
-After it's done, give it a couple of minutes for Github pages to deploy your app and you should see the blog up and running at https://<github-username>.github.io if you are using Github pages. In my case, the site is available at [https://sumeetbajra.github.io](https://sumeetbajra.github.io/)
+After it's done, give it a couple of minutes for Github pages to deploy your app and you should see the blog up and running at `https://<github-username>.github.io` if you are using Github pages. In my case, the site is available at [https://sumeetbajra.github.io](https://sumeetbajra.github.io/)
 
 **Creating Github OAuth app**
 
@@ -169,7 +169,7 @@ Next, go to Settings -> Domain Management, click on 'Add custom domain'.
 
 ![](/img/screen-shot-2019-07-04-at-11.25.24-am.png)
 
-Add your domain name <github-username>.github.io and click 'Verify' and then click 'Yes, add domain' if prompted with new message.
+Add your domain name `<github-username>.github.io` and click 'Verify' and then click 'Yes, add domain' if prompted with new message.
 
 ![](/img/screen-shot-2019-07-04-at-11.26.13-am.png)
 
@@ -185,11 +185,11 @@ Now let's go back to our project. We need to create a new folder inside our blog
 
 <script src="https://gist.github.com/sumeetbajra/b4ed7cd7af203d206eba1cb453a2aedb.js"></script>
 
-In the config.yml file, replace 'repo' with your Github repo and 'site_domain' with your Netlify app's domain <your-netlify-app-name>.netlify.com (skip this in case of custom OAuth). 
+In the config.yml file, replace 'repo' with your Github repo and 'site_domain' with your Netlify app's domain `<your-netlify-app-name>.netlify.com` (skip this in case of custom OAuth). 
 
 If you want to know more about what each attribute in the config.yml file does you can check it out [here](https://www.netlifycms.org/docs/add-to-your-site/#configuration). 
 
-Save the changes and then push them to Github. We are done now. If you head over to https://<github-username>.github.io/admin, you should see Netlify CMS's login page like this.
+Save the changes and then push them to Github. We are done now. If you head over to `https://<github-username>.github.io/admin`, you should see Netlify CMS's login page like this.
 
 ![](/img/screencapture-sumeetbajra-github-io-admin-2019-07-04-11_33_52.png)
 
@@ -203,8 +203,8 @@ Go ahead and login with your Github account and you will be redirected to the CM
 
 If you wish to use custom domain, you can either
 
-1. Host the site in Netlify (which I mentioned briefly above under 'Creating Netlify app') and set your custom domain as primary domain in Netlify dashboard's Domain management. Then simply log in to the account you have with your DNS provider, and add a CNAME record pointing to <netlify-app-name>.netlify.com. 
-2. Continue hosting the site in Github pages and add CNAME record pointing to <github-username>.github.io with your DNS provider.
+1. Host the site in Netlify (which I mentioned briefly above under 'Creating Netlify app') and set your custom domain as primary domain in Netlify dashboard's Domain management. Then simply log in to the account you have with your DNS provider, and add a CNAME record pointing to `<netlify-app-name>.netlify.com`. 
+2. Continue hosting the site in Github pages and add CNAME record pointing to `<github-username>.github.io` with your DNS provider.
 
 Obviously, these are just in regards to this tutorial. You have the flexibility to customize the project as much as you want and host them wherever you prefer to.
 
