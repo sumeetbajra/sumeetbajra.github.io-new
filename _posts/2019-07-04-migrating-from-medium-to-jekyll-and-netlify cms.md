@@ -9,9 +9,9 @@ tags:
   - migrate
   - blog
 date: 2019-07-04T11:08:17.590Z
-thumbnail: /img/screen-shot-2019-07-08-at-12.27.58-pm.png
+thumbnail: /img/final.png
 ---
-![](/img/screen-shot-2019-07-08-at-12.27.58-pm.png)
+![](/img/final.png)
 
 We at [Botsplash](https://botsplash.com) recently migrated our blogging platform from Medium to self hosted [Jekyll](https://jekyllrb.com) site with [Netlify CMS](https://www.netlifycms.org/) to manage the content. 
 
