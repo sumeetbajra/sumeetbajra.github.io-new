@@ -120,7 +120,7 @@ This is all great so far. We have our Medium articles exported and displayed in 
 
 Netlify CMS will allow us to manage our articles directly to Github repo. Thus, we will need to create a new repository for our blog. Let's go ahead and upload our 'beautiful-jekyll' to our own Github repository.
 
-Create a new Github repository from [here](https://github.com/new). You can name the repository as "<github-username>.github.io". This will allow our site to be hosted via [Github pages](https://pages.github.com/).
+Create a new Github repository from [here](https://github.com/new). You can name the repository as "<github-username>.github.io". This will allow our site to be hosted via [Github Pages](https://pages.github.com).
 
 _Note: Before you upload the project to Github, you might want to update the site's _config.yml file. It currently contains dummy information and you will want to replace it with your information before uploading it. You can make other changes too as you may feel necessary. Find more details on Jekyll config file_ [_here_](https://jekyllrb.com/docs/configuration/)_._
 
